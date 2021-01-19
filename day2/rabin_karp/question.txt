@@ -1,0 +1,32 @@
+There are pair of words namely W1 and W2 with a limited of word range, 
+Create a method to return a true value if W2 contains the anagram of W1. 
+In additional, one of the anagram of first word is the substring of the second word.
+
+Your task is to implement the Solution class, and implement a method in it, 
+	- public boolean checkPalindromeSubstring(String w1, String w2){}.
+
+Input Format:
+-------------
+Two space separated words w1 and w2, consist of lowercase letters only.
+
+Output Format:
+--------------
+Print a boolean value, if W2 contains the anagram of W1 or not.
+
+
+Sample Input-1:
+---------------
+abbcbb abbbabbcb
+
+Sample Output-1:
+----------------
+true
+
+
+Sample Input-2:
+---------------
+abbcbbc abbbabbcb
+
+Sample Output-2:
+----------------
+false
